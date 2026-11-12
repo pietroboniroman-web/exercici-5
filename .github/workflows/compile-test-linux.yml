@@ -15,3 +15,6 @@ jobs:
       - name: Compile program
         run: |
           make
+
+      - name: Check binary
+        run: ./conversor c2f 100
